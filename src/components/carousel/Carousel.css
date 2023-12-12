@@ -1,0 +1,47 @@
+.carousel {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+  }
+  
+  .carousel-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 20px 0;
+  }
+  
+  .carousel-text {
+    width: 45%;
+    text-align: left;
+    color: white;
+  }
+  
+  .carousel-image {
+    width: 70%;
+    height: 560px;
+    object-fit: cover;
+    margin-left: 15px;
+  }
+  
+  button {
+    background: none;
+    color: white;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 2rem;
+  }
+  
+  
+  h2 {
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }

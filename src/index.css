@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito+Sans:opsz@6..12&display=swap');
+*{
+  box-sizing: border-box;
+  font-family:  Montserrat;
+  margin: 0;
+  padding: 0;
+  scroll-behavior:smooth;
+  letter-spacing: 2px;
+}
+
+body{
+  width: 100%;
+}
+

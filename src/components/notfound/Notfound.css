@@ -1,0 +1,33 @@
+.not-found-container {
+    text-align: center;
+    padding: 50px;
+    margin-top: 100px;
+    color: #333;
+  }
+  
+  .not-found-container h1 {
+    font-size: 6em;
+  }
+  
+  .not-found-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .not-found-container p {
+    margin-bottom: 30px;
+  }
+  
+  .not-found-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .pageno{
+    color: #333;
+  }
+  

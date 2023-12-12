@@ -1,0 +1,33 @@
+nav .header_line{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    z-index: 1;
+}
+nav .header_line li{
+    padding: 5px 10px ;
+    margin: 0px 10px;
+    cursor: pointer;
+    transition: all .3s;
+    border-radius: 6px;
+
+}
+nav .header_line li:hover{
+    background-color: rgba(242, 242, 242, 0.171)
+}
+
+img{
+    width: 125px;
+}
+
+@media (max-width: 991px) {
+    .header_line li:nth-child(n+2):nth-child(-n+6) {
+        display: none;
+    }
+}

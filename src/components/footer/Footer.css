@@ -1,0 +1,29 @@
+.tesla-footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links a,
+  .footer-social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer-copy-right p {
+    margin-top: 20px;
+  }
+  
+  .footer-social-media{
+    margin-top: 25px;
+  }

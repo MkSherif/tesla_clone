@@ -1,0 +1,35 @@
+.carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+  }
+  
+  .slide {
+    opacity: 0;
+    transition-duration: 2s ease;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    transition-duration: 2s;
+    transform: scale(1.08);
+  }
+  
+  .image {
+    width: 1300px;
+    height: 600px; 
+  }
+  
+  .text {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
